@@ -1,3 +1,10 @@
+*MOV R1, 5
+MOV R2, 10
+ADD R1, R2
+STORE R1, 200
+LOAD R3, 200
+SUB R2, R3
+HALT*
 #include <stdio.h>
 
 int page_faults_FIFO(int pages[], int n, int capacity) {
