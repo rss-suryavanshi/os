@@ -1,4 +1,4 @@
-MOV R1, R2
+*MOV R1, R2
 ADD R3, R4
 SUB R5, R6
 MUL R7, R8
@@ -7,7 +7,7 @@ JMP 10
 CMP R11, R12
 LOAD R13, R14
 STORE R15, R16
-NOP                             
+NOP *                            
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
