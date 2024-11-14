@@ -1,3 +1,8 @@
+*MOV A, B
+ADD A, 5
+SUB B, A
+JMP 10
+HLT*
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
