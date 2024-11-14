@@ -1,3 +1,8 @@
+*MOV R1, R2
+ADD R3, R4
+XYZ R5, R6  // Invalid opcode
+MUL R7, R8*
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
